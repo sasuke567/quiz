@@ -12,3 +12,21 @@ $(document).ready(function() {
     });
 
 });
+function counttotalScore(question1, question2, question3){
+    var score = 0;
+    if (question1 === "Drift") { 
+        score = score +5;
+    } else if (question1 === "Ragnorok") {
+        score = score +10;
+    } else if (question1 === "Valkyrie") {
+        score = score +15;
+    } 
+    if (question2 === "Breaking") {
+        score === score +25;
+    }else if (question2 === )
+    }
+    
+    //|| question1 === "Ragnorok"||question1 ===  "Valkyrie")
+    
+}
+
